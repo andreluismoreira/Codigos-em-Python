@@ -1,0 +1,8 @@
+from math import (sin, cos, tan, radians)
+valor = float(input('Digite o anguo desejado: '))
+sin = sin(radians(valor))
+cos = cos(radians(valor))
+tan = tan(radians(valor))
+print('O angulo inserido foi {} com seno {:.2f}'.format(valor, sin))
+print('O angulo inserido foi {} com coseno {:.2f}'.format(valor, cos))
+print('O angulo inserido foi {} com tagente {:.2f}'.format(valor, tan))
