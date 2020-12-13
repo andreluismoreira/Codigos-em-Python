@@ -1,0 +1,6 @@
+print('----Calculadore de Prestações----')
+taxa = float(input('Defina o Valor da taxa: '))
+valor = float(input('Defina o valor: '))
+tempo = float(input('defina o valor do tempo das prestações: '))
+prestacao = valor + (valor * (taxa / 100) * tempo)
+print('De acordo com a taxa de {}, a divida de {} e o tempo de financiamento de {}, o valor das prestações ficara de {}'.format(taxa,valor,tempo,prestacao))

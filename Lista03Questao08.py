@@ -1,0 +1,10 @@
+n1 = float(input('digite um numero: '))
+n2 = float(input('digite um numero: '))
+r = str('s').upper()
+while r == 'S':
+    print(f'A multiplicação de {n1} e {n2} e:', n1 * n2)
+    print(f'A divisão de {n1} e {n2} e:', n1 / n2)
+    print(f'A soma de {n1} e {n2} e:', n1 + n2)
+    print(f'A subtração de {n1} e {n2} e:', n1-n2)
+    r = str(input('voce deseja continuar [S/N] ?')).upper()
+print(' fim')

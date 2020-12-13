@@ -1,0 +1,5 @@
+nome = input ("Digite seu nome: ")
+valorHora= float(input("Digite quanto você ganha por hora: "))
+horaMes= float(input("Quantas horas você trabalha por mês: "))
+valorMes = (valorHora * horaMes)
+print (f"ola {nome} voce recebe R${valorMes} por mês ")
